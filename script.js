@@ -53,7 +53,7 @@ window.onscroll = function(){
     xhr.onreadystatechange = function() {
       if (xhr.readyState === 4 && xhr.status === 200) {
         // Redirigir al usuario a la página correcta después del envío
-        window.location.href = "http://localhost:8000";
+        window.location.href = "https://marcosmartinprogram.github.io/#contacto";
       }
     };
     xhr.send(new FormData(formulario));
