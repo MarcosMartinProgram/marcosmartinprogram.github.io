@@ -9,6 +9,7 @@ html{
     /*me permite deslizar cuando hago clic en los link del menu*/
     scroll-behavior: smooth;
 }
+
 /*MENU*/
 .contenedor-header{
     background: #1e2326;
@@ -121,6 +122,11 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
+}
+p{
+    text-align: justify;
+    font-family: 'Righteous';
+    font-size: 18px;
 }
 .sobremi .contenido-seccion p{
     font: 18px;
