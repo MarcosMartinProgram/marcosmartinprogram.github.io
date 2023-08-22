@@ -59,3 +59,31 @@ window.onscroll = function(){
     xhr.send(new FormData(formulario));
   });
 
+  document.addEventListener('DOMContentLoaded', function () {
+    const lookerIframe = document.createElement('iframe');
+    lookerIframe.src = 'https://lookerstudio.google.com/s/k5YK8rjijN4';
+    lookerIframe.width = '800';
+    lookerIframe.height = '600';
+    const lookerContainer = document.getElementById('looker-container');
+    lookerContainer.appendChild(lookerIframe);
+});
+
+/*document.addEventListener('DOMContentLoaded', function () {
+  const googleSheetsUrl = 'https://sheets.googleapis.com/v4/spreadsheets/TU_SPREADSHEET_ID/values/TU_RANGO?key=TU_API_KEY';
+
+  fetch(googleSheetsUrl)
+      .then(response => response.json())
+      .then(data => {
+          const values = data.values;
+          const googleSheetsContainer = document.getElementById('google-sheets-container');
+
+          values.forEach(row => {
+              const rowElement = document.createElement('div');
+              rowElement.textContent = row.join(' | ');
+              googleSheetsContainer.appendChild(rowElement);
+          });
+      })
+      .catch(error => console.error('Error:', error));
+});*/
+
+
