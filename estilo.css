@@ -501,8 +501,10 @@ p{
     cursor: pointer;
 }
 .portfolio .galeria .proyecto img{
-    width: 100%;
+    width: 350px;
+    height: 150px;
     display: block;
+    
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
@@ -539,14 +541,14 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh; /* O ajusta la altura según tus necesidades */
+    height: 5vh; 
 }
 
 #google-sheets-button a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #92da7e; /* Color de fondo del botón */
-    color: #fff; /* Color del texto del botón */
+    background-color: #92da7e; 
+    color: #fff; 
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
@@ -554,7 +556,7 @@ p{
 }
 
 #google-sheets-button a:hover {
-    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+    background-color: #0056b3; 
 }
 
 /* SECCION CONTACTO */
